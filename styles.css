@@ -242,10 +242,11 @@ p {
 .stats-panel strong {
   display: block;
   color: #f4f7fa;
-  font-family: Bahnschrift, "Arial Narrow Bold", sans-serif;
-  font-size: 1.45rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
