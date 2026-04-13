@@ -357,6 +357,7 @@ p {
   display: grid;
   place-items: center;
   min-height: 460px;
+  padding: 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 28px;
   background:
@@ -364,71 +365,15 @@ p {
     linear-gradient(180deg, rgba(20, 20, 20, 0.98), rgba(7, 7, 7, 0.98));
 }
 
-.elbow-illustration {
-  position: relative;
-  width: min(100%, 480px);
-  aspect-ratio: 1 / 1;
-}
-
-.elbow-curve,
-.elbow-tip {
-  position: absolute;
-  border: 26px solid #b4bcc4;
-  background: linear-gradient(135deg, #f1f4f7, #8a929b 55%, #dce0e4 78%, #707780);
+.product-image {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+  border-radius: 20px;
+  background: #ffffff;
   box-shadow:
-    inset -12px -12px 24px rgba(0, 0, 0, 0.22),
-    inset 10px 10px 18px rgba(255, 255, 255, 0.18),
-    0 18px 40px rgba(0, 0, 0, 0.38);
-}
-
-.elbow-curve {
-  top: 12%;
-  left: 10%;
-  width: 68%;
-  height: 68%;
-  border-radius: 0 0 0 100%;
-  border-top: 0;
-  border-right: 0;
-}
-
-.elbow-tip {
-  border-radius: 999px;
-}
-
-.elbow-tip-top {
-  top: 4%;
-  left: 48%;
-  width: 22%;
-  height: 38%;
-}
-
-.elbow-tip-side {
-  top: 48%;
-  left: 52%;
-  width: 38%;
-  height: 22%;
-}
-
-.shine {
-  position: absolute;
-  border-radius: 999px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
-  filter: blur(1px);
-  opacity: 0.7;
-}
-
-.shine-top {
-  top: 8%;
-  left: 59%;
-  width: 4%;
-  height: 26%;
-}
-
-.shine-side {
-  top: 55%;
-  left: 62%;
-  width: 22%;
-  height: 4%;
+    0 18px 40px rgba(0, 0, 0, 0.38),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .product-price {
