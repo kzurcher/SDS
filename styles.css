@@ -340,6 +340,106 @@ p {
   padding: 48px 56px;
 }
 
+.product-showcase {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 28px;
+  align-items: center;
+  padding: 56px;
+}
+
+.product-visual,
+.product-copy {
+  min-width: 0;
+}
+
+.product-visual {
+  display: grid;
+  place-items: center;
+  min-height: 460px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top right, rgba(114, 255, 34, 0.16), transparent 32%),
+    linear-gradient(180deg, rgba(20, 20, 20, 0.98), rgba(7, 7, 7, 0.98));
+}
+
+.elbow-illustration {
+  position: relative;
+  width: min(100%, 480px);
+  aspect-ratio: 1 / 1;
+}
+
+.elbow-curve,
+.elbow-tip {
+  position: absolute;
+  border: 26px solid #b4bcc4;
+  background: linear-gradient(135deg, #f1f4f7, #8a929b 55%, #dce0e4 78%, #707780);
+  box-shadow:
+    inset -12px -12px 24px rgba(0, 0, 0, 0.22),
+    inset 10px 10px 18px rgba(255, 255, 255, 0.18),
+    0 18px 40px rgba(0, 0, 0, 0.38);
+}
+
+.elbow-curve {
+  top: 12%;
+  left: 10%;
+  width: 68%;
+  height: 68%;
+  border-radius: 0 0 0 100%;
+  border-top: 0;
+  border-right: 0;
+}
+
+.elbow-tip {
+  border-radius: 999px;
+}
+
+.elbow-tip-top {
+  top: 4%;
+  left: 48%;
+  width: 22%;
+  height: 38%;
+}
+
+.elbow-tip-side {
+  top: 48%;
+  left: 52%;
+  width: 38%;
+  height: 22%;
+}
+
+.shine {
+  position: absolute;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+  filter: blur(1px);
+  opacity: 0.7;
+}
+
+.shine-top {
+  top: 8%;
+  left: 59%;
+  width: 4%;
+  height: 26%;
+}
+
+.shine-side {
+  top: 55%;
+  left: 62%;
+  width: 22%;
+  height: 4%;
+}
+
+.product-price {
+  margin: 22px 0 0;
+  color: var(--line-strong);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .page-hero {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
@@ -497,6 +597,7 @@ p {
   .topbar,
   .hero,
   .page-hero,
+  .product-showcase,
   .about,
   .fleet-layout,
   .cta-strip {
@@ -525,6 +626,7 @@ p {
   .topbar,
   .hero,
   .page-hero,
+  .product-showcase,
   .section-heading,
   .services,
   .fleet,
