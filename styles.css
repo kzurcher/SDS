@@ -117,10 +117,6 @@ body::before {
   cursor: pointer;
 }
 
-.nav-dropdown-toggle::after {
-  content: " v";
-}
-
 .nav-dropdown-menu {
   position: absolute;
   top: calc(100% + 2px);
