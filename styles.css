@@ -57,12 +57,6 @@ body::before {
   justify-content: space-between;
   gap: 24px;
   margin-top: 12px;
-  padding: 16px 22px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 22px;
-  background: rgba(4, 4, 4, 0.82);
-  backdrop-filter: blur(14px);
-  box-shadow: var(--shadow);
 }
 
 .brand img,
@@ -81,6 +75,12 @@ body::before {
   flex-wrap: wrap;
   align-items: center;
   gap: 18px;
+  padding: 14px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  background: rgba(4, 4, 4, 0.82);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
 }
 
 .nav a,
@@ -575,8 +575,7 @@ p {
   }
 
   .topbar {
-    position: static;
-    justify-items: start;
+    align-items: flex-start;
   }
 
   .service-grid {
@@ -609,6 +608,7 @@ p {
 
   .nav {
     gap: 12px 16px;
+    padding: 12px 16px;
   }
 
   .nav-dropdown-menu {
