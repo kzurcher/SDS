@@ -68,12 +68,12 @@ body::before {
 .brand img,
 .footer img {
   display: block;
-  width: min(100%, 320px);
+  width: min(100%, 250px);
 }
 
 .brand {
   display: inline-flex;
-  max-width: 320px;
+  max-width: 250px;
 }
 
 .nav {
