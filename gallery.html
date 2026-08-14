@@ -48,7 +48,7 @@
           <p class="eyebrow">Photos</p>
           <h2>Built, serviced, and shown with pride.</h2>
         </div>
-        <div class="photo-grid">
+        <div class="photo-grid" data-gallery>
           <figure class="photo-card">
             <img src="IMG_0153.JPG" alt="Sullivan's Diesel Solutions gallery photo" loading="lazy">
           </figure>
@@ -99,6 +99,13 @@
       <img src="logo-gold.png" alt="Sullivan's Diesel Solutions black and gold logo">
       <p><span id="year"></span> Sullivan's Diesel Solutions. Diesel repair with attitude.</p>
     </footer>
+  </div>
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close gallery viewer">&times;</button>
+    <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">&#8249;</button>
+    <img class="lightbox-image" data-lightbox-image alt="">
+    <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Next image">&#8250;</button>
   </div>
 
   <script src="script.js"></script>
