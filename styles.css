@@ -2,8 +2,8 @@
   --bg: #050505;
   --bg-soft: #111111;
   --panel: rgba(16, 16, 16, 0.92);
-  --line: rgba(135, 255, 30, 0.28);
-  --line-strong: #72ff22;
+  --line: rgba(218, 165, 32, 0.34);
+  --line-strong: #d6a51f;
   --silver: #d4d7db;
   --silver-dark: #6c727b;
   --text: #f5f7f9;
@@ -28,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background:
-    radial-gradient(circle at top, rgba(114, 255, 34, 0.18), transparent 22%),
+    radial-gradient(circle at top, rgba(214, 165, 31, 0.2), transparent 22%),
     linear-gradient(135deg, #070707, #161616 45%, #050505);
 }
 
@@ -143,7 +143,7 @@ body::before {
 
 .nav-dropdown-menu a:hover,
 .nav-dropdown-menu a:focus-visible {
-  background: rgba(114, 255, 34, 0.12);
+  background: rgba(214, 165, 31, 0.13);
 }
 
 .nav-dropdown:hover .nav-dropdown-menu,
@@ -285,8 +285,8 @@ p {
 
 .button-primary {
   color: #051000;
-  background: linear-gradient(135deg, #b6ff5d, var(--line-strong));
-  box-shadow: 0 12px 24px rgba(114, 255, 34, 0.24);
+  background: linear-gradient(135deg, #ffe08a, var(--line-strong));
+  box-shadow: 0 12px 24px rgba(214, 165, 31, 0.26);
 }
 
 .button-secondary {
@@ -318,7 +318,7 @@ p {
   flex: 0 0 12px;
   border-radius: 50%;
   background: var(--line-strong);
-  box-shadow: 0 0 18px rgba(114, 255, 34, 0.65);
+  box-shadow: 0 0 18px rgba(214, 165, 31, 0.68);
 }
 
 .hero-art {
@@ -331,7 +331,7 @@ p {
   border: 1px solid var(--line);
   border-radius: 26px;
   background:
-    radial-gradient(circle at top right, rgba(114, 255, 34, 0.22), transparent 35%),
+    radial-gradient(circle at top right, rgba(214, 165, 31, 0.24), transparent 35%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
 }
 
@@ -389,7 +389,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 28px;
   background:
-    radial-gradient(circle at top right, rgba(114, 255, 34, 0.16), transparent 32%),
+    radial-gradient(circle at top right, rgba(214, 165, 31, 0.18), transparent 32%),
     linear-gradient(180deg, rgba(20, 20, 20, 0.98), rgba(7, 7, 7, 0.98));
 }
 
@@ -430,7 +430,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   background:
-    radial-gradient(circle at top right, rgba(114, 255, 34, 0.18), transparent 34%),
+    radial-gradient(circle at top right, rgba(214, 165, 31, 0.2), transparent 34%),
     rgba(11, 11, 11, 0.92);
 }
 
@@ -454,7 +454,7 @@ p {
   border: 1px solid var(--line);
   border-radius: 26px;
   background:
-    radial-gradient(circle at top right, rgba(114, 255, 34, 0.2), transparent 35%),
+    radial-gradient(circle at top right, rgba(214, 165, 31, 0.22), transparent 35%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
 }
 
@@ -534,7 +534,7 @@ p {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  background: linear-gradient(135deg, #b6ff5d, var(--line-strong));
+  background: linear-gradient(135deg, #ffe08a, var(--line-strong));
 }
 
 .cta-strip {
@@ -613,7 +613,7 @@ p {
 .stats-panel div {
   padding: 18px;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(114, 255, 34, 0.06));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(214, 165, 31, 0.08));
 }
 
 .stats-panel span {
@@ -639,7 +639,7 @@ p {
 
 .contact-panel {
   background:
-    radial-gradient(circle at right top, rgba(114, 255, 34, 0.18), transparent 24%),
+    radial-gradient(circle at right top, rgba(214, 165, 31, 0.2), transparent 24%),
     linear-gradient(180deg, rgba(28, 28, 28, 0.98), rgba(8, 8, 8, 0.98));
 }
 
