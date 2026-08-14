@@ -463,7 +463,7 @@ p {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center 82%;
   border-radius: 18px;
 }
 
