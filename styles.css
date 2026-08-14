@@ -585,6 +585,7 @@ p {
 }
 
 .service-card-image-diagnostics img {
+  aspect-ratio: 1 / 1;
   object-position: center bottom;
 }
 
