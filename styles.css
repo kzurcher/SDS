@@ -585,7 +585,7 @@ p {
 }
 
 .service-card-image-diagnostics img {
-  object-position: center 72%;
+  object-position: center bottom;
 }
 
 .about {
